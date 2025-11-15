@@ -6,5 +6,4 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(Hashing main.cpp
         Find_PRime.cpp
         Find_Prime.h
-        Primes.h
 )
