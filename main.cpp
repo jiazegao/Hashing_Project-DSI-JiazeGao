@@ -2,7 +2,6 @@
 #include <iostream>
 #include <vector>
 #include <random>
-#include "Primes.h"
 
 typedef unsigned long long ull;
 constexpr ull MAX_HASH = INT_MAX;
