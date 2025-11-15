@@ -2,8 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <random>
-
-#include "Find_Prime.h"
+#include "Primes.h"
 
 typedef unsigned long long ull;
 constexpr ull MAX_HASH = INT_MAX;
@@ -27,7 +26,7 @@ ull testPreset2[4] = {0, 98, 34, 8191};
 ull testPreset3[4] = {5, 234, 531, 8191};
 ull testPreset4[4] = {3, 233, 654, 8191};
 
-std::vector<ull> TABLE_SIZES = getTableSizes();
+inline std::vector<unsigned long long> TABLE_SIZES = {7, 23 ,29 ,31 ,47 ,71 ,107 ,163 ,251 ,379 ,569 ,857 ,1289 ,1949 ,2927 ,4391 ,6599 ,9901 ,14867 ,22303 ,33457 ,50207 ,75323 ,112997 ,169501 ,254257 ,381389 ,572087 ,858149 ,1287233 ,1930879 ,2896319 ,4344479 ,6516739 ,9775111 ,14662727 ,21994111};
 const ull MAX_HOPSCOTCH_SHIFT = 4;
 
 template <typename T>
